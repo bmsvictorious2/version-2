@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Test</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Tech Skill Vocational Institute</h1>
+        <h1>Test No 4</h1>
+        <div class="name-section">
+            <label for="studentName">Enter your name:</label>
+            <input style="height:40px; width: 180px;" type="text" id="studentName" placeholder="Your Name">
+        </div>
+
+        <!-- Display Student's Name -->
+        <p id="displayName"></p>
+        <div class="question">
+            <p>1. A technique that converts words into vectors is called------ ?</p>
+            <input type="radio" id="NO" name="Angl" value="6">
+            <label for="6">Word Embading</label><br>
+            
+            <input type="radio" id="Yes" name="Angl" value="4">
+            <label for="4">Tokenization</label>
+            
+            
+        </div>
+        <!-- Question 1 (Yes/No using checkboxes) -->
+        <div class="question">
+            <p>2. For a machine learning progress, how should you split data for training and evaluation?</p>
+            <input type="checkbox" id="SetPrimarymetrictoaccuracy" value="Set Primary metric to accuracy.">
+            <label for="Set Primary metric to accuracy.">Use features for training and labels for evaluation.</label><br>
+            
+            <input type="checkbox" id="EnableExplainbestmodel" value="Enable Explain best model">
+            <label for="Enable Explain best model">. Randomly split the data into rows for training and rows for evaluation</label>
+            
+        </div>
+        
+          <!-- Question 3 (Dropdown) -->
+        
+          <div class="question">
+            <p>3. Ensure AI system Operate as they were originaly designed,respond to unanticipated condition and resist harmful manipulation. </p>
+            <input type="radio" id="Computer" name="workloadAI" value="Computer vision">
+            <label for="Computer vision">Accountability</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Machine Learning">
+            <label for="Machine Learning">Reliability & Safety</label>
+            
+            <input type="radio" id="Computer" name="workloadAI" value="Artificial Intelligence">
+            <label for="Artificial Intelligence">privacy & security</label>
+        </div>
+        <!-- Question 2 (Dropdown) -->
+        <div class="question">
+            <p>4.This statement belong to which category "Determine whether the review is positive & negative"</p>
+            <select id="question2">
+                <option value="">--Select an answer--</option>
+                <option value="inclusiveness">Language detection</option>
+                <option value="reliability and safety">Key phrase extraction</option>
+                <option value="transparency">Natural language processing</option>
+                <option value="privacy and security">Knowledge mining</option>
+            </select>
+        </div>
+        <div class="question">
+            <p>5.Which task should you include to ensure that the service meets the Microsoft transparency principle for
+                responsible AI?</p>
+            <select id="question5">
+                <option value="">--Select an answer--</option>
+                <option value="Privacy and security">Ensure that all visuals have an associated text that can be read by a screen reader.</option>
+                <option value="Reliability and safety">Provide documentation to help developers debug code</option>
+                
+                <option value="Both a,b & c">Ensure that a training dataset is representative of the population.</option>
+            </select>
+        </div>
+
+
+
+        <!-- Question 4 (Checkboxes) -->
+
+ <div class="question">
+    <p>6.Your company is exploring the use of voice recognition technologies in its smart home devices. The company wants
+        to identify any barriers that might unintentionally leave out specific user groups.
+        This an example of which Microsoft guiding principle for responsible AI?</p>
+    <input type="radio" id=" guiding" name="train" value="VALUE1">
+    <label for=" fairness"> fairness</label>
+    <BR></BR>
+    <input type="radio" id="guiding" name="train" value="VALUE2">
+    <label for="inclusiveness">inclusiveness</label>
+    <br>
+    <input type="radio" id="guiding" name="train" value="VALUE3">
+    <label for="accountability">accountability</label>
+</div>
+<div class="question">
+    <p>7. You should Evluate the model by using same data used to train the model?</p>
+    <select id="question7">
+        <option value="">--Select an answer--</option>
+        <option value="Object Detection">Yes</option>
+        
+        <option value="OCR">No</option>
+    </select>
+</div>
+
+
+
+<div class="question">
+    <p>8. You use Azure Machine Learning designer to publish an inference pipeline.
+        Which two parameters should you use to access the web service? Each correct answer presents part of the
+        solution.?</p>
+    <input type="checkbox" id="mic" value="Image classication">
+    <label for="Image classication">the authentication key</label><br>
+    
+    <input type="checkbox" id="mic" value="Identify handwritten letters">
+    <label for="Identify handwritten letters">the model name</label><br>
+    
+    <input type="checkbox" id="mic" value="R">
+    <label for="R">the REST endpoint</label>
+    
+    
+</div>
+<div class="question">
+    <p>9.Which of the following is commonly used as a model for Regression? </p>
+    <input type="radio" id="CNN" name="AI" value="CNN">
+    <label for="CNN">Logitic Regression</label>
+    
+    <input type="radio" id="RNN" name="AI" value="RNN">
+    <label for="RNN">Linear Regression</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>10.You need to use machine learning to support early detection of the different brain haemorrhage types in the
+        images before the images are reviewed by a person.
+        This is an example of which type of machine learning??</p>
+    <select id="question8">
+        <option value="">--Select an answer--</option>
+        <option value="fairness">Regression</option>
+        
+        <option value="inclusiveness">Classification</option>
+    </select>
+</div>
+<div class="question">
+    11:<p> <img src="classification.jpg" alt=""><br>calculate recall using confusion metrices?</p>
+      <input type="radio" id="Elevenlabs" name="image" value="Object detection">
+      <label for="Object detection">0.42</label>
+      
+      <input type="radio" id="Elevenlabs" name="image" value="OCR">
+      <label for="Elevenlabs">0.58</label>
+      <input type="radio" id="Elevenlabs" name="image" value="Face detection">
+      <label for="Elevenlabs">0.97</label>
+      
+      
+  </div>
+<div class="question">
+    <p>12.Which Statement belong to clustering?</p>
+      <input type="radio" id="Detect individual objects in an image" name="images" value="Detect individual objects in an image">
+      <label for="Detect individual objects in an image">Organizing document in group based on similarities of text Contain in document.</label><BR></BR>
+      
+      <input type="radio" id="Assign a label to each pixel in the image" name="images" value="Assign a label to each pixel in the image">
+      <label for="Assign a label to each pixel in the image">Predicting Wether a person will develop mild moderate & severe allergy system based on pollen count.</label><BR></BR>
+     
+      
+  </div>
+  <div class="question">
+    <div class="question">
+        <p>13.You are developing a solution that uses the Text Analytics service.
+            You need to identify the main talking points in a collection of documents.
+            Which type of natural language processing should you use?</p>
+        <input type="radio" id="Building AI systems that require no human oversight" name="At" value="Building AI systems that require no human oversight">
+        <label for="Building AI systems that require no human oversight">entity recognition</label><br>
+        
+        <input type="radio" id="standards" name="At" value="standards">
+        <label for="standards">key phrase extraction</label>
+        
+</div>
+<div class="question">
+    <p>14. Which statement follow the Text Analytics Services? </p>
+    <input type="checkbox" id="inclusiveness" value="inclusiveness">
+    <label for="inclusiveness">The text Analytic services determine in which language text is written.</label><br>
+    
+    <input type="checkbox" id="opinionatedness" value="opinionatedness">
+    <label for="opinionatedness">The Text Analytics Services can Detect Handwtitten Signature in a document.</label><br>
+    <input type="checkbox" id="reliability and safety" value="reliability and safety">
+    <label for="reliability and safety">The text Analytics service can identify companies and organization mention in a documents.</label>
+    
+</div>
+
+<div class="question">
+    <p>15. John works at Google and lives in New York. He attended a conference in San Francisco last week. <br> Recognize number of entity use in above sentence?</p>
+    <input type="radio" id="NO" name="Angle" value="6">
+    <label for="6">6</label><br>
+    
+    <input type="radio" id="Yes" name="Angle" value="4">
+    <label for="4">4</label>
+    
+    
+</div>
+
+<div class="question">
+    <p>16.Use the language detection capability of Azure AI Language to identify the language in which text is written. You can submit multiple documents at a time for analysis. For each document submitted the service will detect:?</p>
+    <input type="radio" id="NO" name="Am" value="Voxel">
+    <label for="Voxel">The language name,The ISO 639-1 language code,A score</label><br>
+    
+    <input type="radio" id="Yes" name="Am" value="Pixel">
+    <label for="Pixel">The language name,The ISO 639-1 language code</label>
+    
+    
+</div>
+
+<button onclick="checkAnswers()">submit</button>
+        <p id="result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
